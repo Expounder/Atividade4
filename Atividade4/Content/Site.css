@@ -1,0 +1,50 @@
+﻿
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Background {
+    background-image: linear-gradient(45deg,black,grey);
+    height: 100vh;
+    color: orangered;
+    font-family: 'Franklin Gothic';
+  
+}
+
+.estrutura {
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.Pad_Botao {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: gainsboro;
+    margin: 3px;
+   
+}
+
+#resultado {
+    width: 205px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    background-color: gainsboro;
+    color: black;
+    text-align: right;
+}
+
+.Pad_Botao:hover {
+    background-color: rgb(158, 154, 153);
+}
